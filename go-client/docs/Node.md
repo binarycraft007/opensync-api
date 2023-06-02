@@ -1,0 +1,51 @@
+# Node
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**SerialNumber** | **string** |  | [default to null]
+**Id** | **string** | always returns the value of &#39;serialNumber&#39; | [optional] [default to null]
+**ManufacturerSerialNumber** | **string** | value from the firmware&#39;s OVS AWLAN_Node.serial_number column | [optional] [default to null]
+**Version** | **string** | schema version # of a Mongo document | [default to null]
+**SubscriptionRequired** | **bool** | if true, Plume mobile app customers will need to activate a subscription to use our service | [optional] [default to null]
+**ResidentialGateway** | **bool** | residential gateways (mostly auto imported) require special treatment and searchability | [optional] [default to null]
+**FirmwareVersion** | **string** |  | [optional] [default to null]
+**PlatformVersion** | **string** |  | [optional] [default to null]
+**Model** | **string** | reported by OVS schema | [optional] [default to null]
+**BackhaulDhcpPoolIdx** | **float64** |  | [optional] [default to null]
+**RadioMac24** | **string** |  | [optional] [default to null]
+**RadioMac50** | **string** |  | [optional] [default to null]
+**RadioMac60** | **string** |  | [optional] [default to null]
+**EthernetMac** | **string** |  | [optional] [default to null]
+**BluetoothMac** | **string** |  | [optional] [default to null]
+**Thread** | **string** |  | [optional] [default to null]
+**Blacklists** | [**[]XAny**](x-any.md) |  | [optional] [default to null]
+**ConnectionState** | **string** |  | [optional] [default to null]
+**CountryCode** | **string** |  | [optional] [default to null]
+**NetworkMode** | **string** | the default value is &#39;auto&#39;, users can choose &#39;router&#39; or &#39;auto&#39; | [optional] [default to null]
+**Macs** | [**[]XAny**](x-any.md) |  | [optional] [default to null]
+**Nickname** | **string** |  | [optional] [default to null]
+**BoxSerialNumber** | **string** |  | [optional] [default to null]
+**PackId** | **string** |  | [optional] [default to null]
+**Status** | **string** |  | [optional] [default to null]
+**Timestamp** | [**time.Time**](time.Time.md) | date/time node was claimed | [optional] [default to null]
+**UpdatedAt** | [**time.Time**](time.Time.md) |  | [optional] [default to null]
+**ProductFamily** | **string** | Manufacturer Product Family (Alpha) | [optional] [default to null]
+**ProductDescriptor** | **string** | 1 &#x3D; Pod, 2x2 DBDC, 1xGbE Ethernet, BLE, All Plug Types | [optional] [default to null]
+**ManufactureLocation** | **string** | 1 &#x3D; Arcadyan Kunshan | [optional] [default to null]
+**ManufactureYear** | **string** | 6 (2016), 7 (2017) | [optional] [default to null]
+**ManufactureWeek** | **string** | 48 (week 48), 01,02,03,- 52 | [optional] [default to null]
+**Deployment** | **string** | used by redirector to route pods | [optional] [default to null]
+**ShardNumber** | **string** | used by redirector to route pods | [optional] [default to null]
+**SynchronizedKey** | **string** |  | [optional] [default to null]
+**ConnectionStateChangeAt** | [**time.Time**](time.Time.md) | time at which connectionStateChange last changed | [optional] [default to null]
+**EthernetLan** | **interface{}** | gives the ability to enable or disable individual pods ethernetLan | [optional] [default to null]
+**CustomerId** | [***ObjectId**](ObjectID.md) |  | [optional] [default to null]
+**LocationId** | [***ObjectId**](ObjectID.md) |  | [optional] [default to null]
+**Vendor** | [***NodeVendor**](NodeVendor.md) |  | [optional] [default to null]
+**Certificates** | [***NodeCertificates**](NodeCertificates.md) |  | [optional] [default to null]
+**KvConfigs** | [**[]KvConfig**](KvConfig.md) |  | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

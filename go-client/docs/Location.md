@@ -1,0 +1,53 @@
+# Location
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Id** | [***ObjectId**](ObjectID.md) |  | [optional] [default to null]
+**Ipv6** | **interface{}** | Configuration data for IPv6 | [optional] [default to null]
+**NetworkMode** | **string** | the default value is &#39;auto&#39;, users can choose &#39;router&#39; or &#39;auto&#39; | [optional] [default to null]
+**Name** | **string** |  | [default to null]
+**AccountId** | **string** | accountId from customer relation; this should be a replica of the customer&#39;s accountId field | [optional] [default to null]
+**PartnerId** | **string** | partnerId from customer relation; this should be a replica of the customer&#39;s partnerId field | [optional] [default to null]
+**GroupIds** | **[]string** | List of group IDs a location belongs to. | [optional] [default to null]
+**ServiceId** | **string** |  | [optional] [default to null]
+**Profile** | **string** |  | [optional] [default to null]
+**MDNSUniqueIdentifier** | **string** |  | [optional] [default to null]
+**FreezeTemplates** | **interface{}** |  | [optional] [default to null]
+**ServiceLevel** | **interface{}** | including &#39;status&#39;/&#39;created&#39;/&#39;updatedAt&#39;, &#39;status&#39; can be &#39;noService&#39;/&#39;basicService&#39;/&#39;fullService&#39; | [optional] [default to null]
+**HomeAwayActive** | **bool** | Home Security wifi motion will be enabled when all persons away from home. | [optional] [default to null]
+**AppTime** | **interface{}** | location&#39;s default appTime config | [optional] [default to null]
+**Sniffing** | **interface{}** | location&#39;s default sniffing config | [optional] [default to null]
+**CreatedAt** | [**time.Time**](time.Time.md) |  | [optional] [default to null]
+**UpdatedAt** | [**time.Time**](time.Time.md) |  | [optional] [default to null]
+**DayOneEmailsSent** | **bool** |  | [optional] [default to null]
+**Region** | **string** |  | [optional] [default to null]
+**StepFunctionTimers** | **[]interface{}** | Array of step function timers used for turning off wifi feature | [optional] [default to null]
+**Version** | **string** | schema version # of a Mongo document | [default to null]
+**GroupOfUnassignedDevicesFreezeTemplates** | [**[]XAny**](x-any.md) |  | [optional] [default to null]
+**GroupOfUnassignedDevicesFreezeSchedules** | [**[]XAny**](x-any.md) |  | [optional] [default to null]
+**IsUtilizingSharedLocationFreezeSchedules** | **bool** |  | [optional] [default to null]
+**Uprise** | **bool** |  | [optional] [default to null]
+**Flex** | **bool** |  | [optional] [default to null]
+**CustomerId** | [***ObjectId**](ObjectID.md) |  | [optional] [default to null]
+**IspSpeedTestConfiguration** | [***LocationSpeedTest**](LocationSpeedTest.md) |  | [optional] [default to null]
+**BandSteering** | [***LocationBandSteering**](LocationBandSteering.md) |  | [optional] [default to null]
+**ClientSteering** | [***LocationClientSteering**](LocationClientSteering.md) |  | [optional] [default to null]
+**ControlMode** | [***LocationControlMode**](LocationControlMode.md) |  | [optional] [default to null]
+**MonitorMode** | [***LocationMonitorMode**](LocationMonitorMode.md) |  | [optional] [default to null]
+**Backhaul** | [***LocationBackhaul**](LocationBackhaul.md) |  | [optional] [default to null]
+**WanSettings** | [***LocationWanSettings**](LocationWanSettings.md) |  | [optional] [default to null]
+**WifiMotion** | [***WifiMotion**](WifiMotion.md) |  | [optional] [default to null]
+**GeoIp** | [***GeoIp**](GeoIp.md) |  | [optional] [default to null]
+**NetworkStatus** | [***NetworkStatus**](NetworkStatus.md) |  | [optional] [default to null]
+**Optimizations** | [***Optimizations**](Optimizations.md) |  | [optional] [default to null]
+**Authorizations** | [***Authorizations**](Authorizations.md) |  | [optional] [default to null]
+**Locale** | [***Locale**](Locale.md) |  | [optional] [default to null]
+**NetworkAccess** | [***NetworkAccess**](NetworkAccess.md) |  | [optional] [default to null]
+**DppConfiguration** | [***DppConfiguration**](DppConfiguration.md) |  | [optional] [default to null]
+**HaahsConfiguration** | [***HaahsConfiguration**](HaahsConfiguration.md) |  | [optional] [default to null]
+**SecondaryNetworks** | [***SecondaryNetworks**](SecondaryNetworks.md) |  | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
